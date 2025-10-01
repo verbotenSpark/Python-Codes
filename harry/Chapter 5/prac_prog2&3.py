@@ -1,0 +1,15 @@
+nos = set()
+print("enter 8 numbers: ")
+nos.add(int(input("")))
+nos.add(int(input("")))
+nos.add(int(input("")))
+nos.add(int(input("")))
+nos.add(int(input("")))
+nos.add(int(input("")))
+nos.add(int(input("")))
+nos.add(int(input("")))
+
+nos.add(18)
+nos.add('18')
+
+print(f"unique Nos: {nos}")
